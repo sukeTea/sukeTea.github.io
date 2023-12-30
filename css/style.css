@@ -1,3 +1,6 @@
+body{
+    background-color: #ddd;
+}
 .pagetop{
     position: fixed;
     bottom: 24px;
@@ -20,4 +23,57 @@
     font-weight: 900;
     color: #333;
     line-height: 48px;
+}
+
+/* Loading Block */
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: rgb(95, 95, 95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #565656;
+  border-radius: 100%;
+  -webkit-animation:blink 0.7s ease-in-out infinite alternate;
+  -moz-animation:blink    0.7s ease-in-out infinite alternate;
+  animation:blink         0.7s ease-in-out infinite alternate;
+}
+.spinner p{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 35%;
+}
+/* Loading Animation */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/* Hide Loading Block */
+.loaded {
+  opacity: 0;
+  visibility: hidden;
 }

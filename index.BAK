@@ -4,8 +4,8 @@
     <title>MIZYU's Art Works Archive</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
-    <meta name="author" content="">
+    <meta name="description" content="みず湯のアーカイブ 2023 2023年12月吉日 今年描いたイラストとかをまとめてみました。イラストと共に今年を振り返りつつ年忘れといきましょう。">
+    <meta name="author" content="MIZYU">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -27,8 +27,12 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+	<script src="js/4-1-6.js"></script>
 </head>
 <body>
+	<div id="loading">
+		<div class="spinner"><img src="img/logo2.png" alt="" style=" width: 70px; margin-top: 15px; margin-left: 11px; filter: invert(100%);"></div>
+	</div>
 	<!-- Navigation -->
 	<div class="main-nav">
 		<div class="container">
@@ -83,7 +87,7 @@
 					<img src="img/1.png" alt="Avatar">
 				</div>
 				<div class="unit-80">
-					<h1>2023年に制作した＿＿<br><span id="typed"></span></h1>
+					<h1>2023年に制作した<br><span id="typed"></span></h1>
 				</div>
 				<p>
 					2023年12月吉日 今年描いたイラストとかをまとめてみました。イラストと共に今年を振り返りつつ年忘れといきましょう。
@@ -96,25 +100,25 @@
 	<div class="gallery section second" id="icon">
 		<div class="container">
 			<h1>アイコンイラスト</h1>
-			<ul class="gallery-list"><img src="img/icon01.png "><li>2014-2015</li><li><a href="img/icon01.png " data-lightbox="group">エフ湯/エフイーター</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon02.gif "><li>2014-2015</li><li><a href="img/icon02.gif " data-lightbox="group">ゲーミングエフ湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon03.GIF "><li>2014-2015</li><li><a href="img/icon03.GIF " data-lightbox="group">ねこねこ湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon04.png "><li>2014-2015</li><li><a href="img/icon04.png " data-lightbox="group">エフ湯♂</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon05.jpeg"><li>2014-2015</li><li><a href="img/icon05.jpeg" data-lightbox="group">でび湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon06.png "><li>2014-2015</li><li><a href="img/icon06.png " data-lightbox="group">みず湯くん</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon07.png "><li>2014-2015</li><li><a href="img/icon07.png " data-lightbox="group">みず湯くん(眠)</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon08.png "><li>2014-2015</li><li><a href="img/icon08.png " data-lightbox="group">みず湯くん(焦)</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon09.GIF "><li>2014-2015</li><li><a href="img/icon09.GIF " data-lightbox="group">みず湯くん(回)</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon10.gif "><li>2014-2015</li><li><a href="img/icon10.gif " data-lightbox="group">ぱち湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon11.png "><li>2014-2015</li><li><a href="img/icon11.png " data-lightbox="group">クマ湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon12.png "><li>2014-2015</li><li><a href="img/icon12.png " data-lightbox="group">ままどお湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon13.png "><li>2014-2015</li><li><a href="img/icon13.png " data-lightbox="group">みず湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon14.png "><li>2014-2015</li><li><a href="img/icon14.png " data-lightbox="group">ねこ湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon15.png "><li>2014-2015</li><li><a href="img/icon15.png " data-lightbox="group">ばに湯</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon16.png "><li>2014-2015</li><li><a href="img/icon16.png " data-lightbox="group">みず湯(無)</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon17.jpeg"><li>2014-2015</li><li><a href="img/icon17.jpeg" data-lightbox="group">みず湯(AI)</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon18.png "><li>2014-2015</li><li><a href="img/icon18.png " data-lightbox="group">みず湯(ｷﾘｯ)</a></li><li>icon illust</li></ul>
-			<ul class="gallery-list"><img src="img/icon19.jpeg"><li>2014-2015</li><li><a href="img/icon19.jpeg" data-lightbox="group">クリスマ湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon01.png " loading="lazy"><li>2023-01-09</li><li><a href="img/icon01.png " data-lightbox="group">エフ湯/エフイーター</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon02.gif " loading="lazy"><li>2023-01-14</li><li><a href="img/icon02.gif " data-lightbox="group">ゲーミングエフ湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon04.png " loading="lazy"><li>2023-02-15</li><li><a href="img/icon04.png " data-lightbox="group">エフ湯♂</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon03.GIF " loading="lazy"><li>2023-02-22</li><li><a href="img/icon03.GIF " data-lightbox="group">ねこねこ湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon05.jpeg" loading="lazy"><li>2023-02-26</li><li><a href="img/icon05.jpeg" data-lightbox="group">でび湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon06.png " loading="lazy"><li>2023-03-21</li><li><a href="img/icon06.png " data-lightbox="group">みず湯くん</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon07.png " loading="lazy"><li>2023-03-21</li><li><a href="img/icon07.png " data-lightbox="group">みず湯くん(眠)</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon08.png " loading="lazy"><li>2023-03-21</li><li><a href="img/icon08.png " data-lightbox="group">みず湯くん(焦)</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon09.GIF " loading="lazy"><li>2023-03-28</li><li><a href="img/icon09.GIF " data-lightbox="group">みず湯くん(回)</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon10.gif " loading="lazy"><li>2023-07-04</li><li><a href="img/icon10.gif " data-lightbox="group">ぱち湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon12.png " loading="lazy"><li>2023-07-16</li><li><a href="img/icon12.png " data-lightbox="group">ままどお湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon11.png " loading="lazy"><li>2023-07-22</li><li><a href="img/icon11.png " data-lightbox="group">クマ湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon15.png " loading="lazy"><li>2023-08-21</li><li><a href="img/icon15.png " data-lightbox="group">ばに湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon13.png " loading="lazy"><li>2023-09-06</li><li><a href="img/icon13.png " data-lightbox="group">みず湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon16.png " loading="lazy"><li>2023-09-06</li><li><a href="img/icon16.png " data-lightbox="group">みず湯(無)</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon14.png " loading="lazy"><li>2023-09-15</li><li><a href="img/icon14.png " data-lightbox="group">ねこ湯</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon17.jpeg" loading="lazy"><li>2023-10-29</li><li><a href="img/icon17.jpeg" data-lightbox="group">みず湯(AI)</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon18.png " loading="lazy"><li>2023-11-02</li><li><a href="img/icon18.png " data-lightbox="group">みず湯(ｷﾘｯ)</a></li><li>icon illust</li></ul>
+			<ul class="gallery-list"><img src="img/icon19.jpeg" loading="lazy"><li>2023-12-03</li><li><a href="img/icon19.jpeg" data-lightbox="group">クリスマ湯</a></li><li>icon illust</li></ul>
 		</div>
 	</div>
 
@@ -122,26 +126,26 @@
 	<div class="gallery section second" id="mizyu">
 		<div class="container">
 			<h1>みず湯くんイラスト</h1>
-			<ul class="gallery-list"><img src="img/miz01.PNG "><li>2014-2015</li><li><a href="img/miz01.PNG " data-lightbox="group">エフ湯(呆)</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz02.png "><li>2014-2015</li><li><a href="img/miz02.png " data-lightbox="group">エフ湯graffiti</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz03.png "><li>2014-2015</li><li><a href="img/miz03.png " data-lightbox="group">レトロ風</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz05.png "><li>2014-2015</li><li><a href="img/miz05.png " data-lightbox="group">ウザ湯</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz04.jpg "><li>2014-2015</li><li><a href="img/miz04.jpg " data-lightbox="group">電脳MIZYU</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz06.png "><li>2014-2015</li><li><a href="img/miz06.png " data-lightbox="group">受肉snap1</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz07.png "><li>2014-2015</li><li><a href="img/miz07.png " data-lightbox="group">受肉snap2</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz08.png "><li>2014-2015</li><li><a href="img/miz08.png " data-lightbox="group">受肉snap3</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz09.png "><li>2014-2015</li><li><a href="img/miz09.png " data-lightbox="group">受肉snap4</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz10.png "><li>2014-2015</li><li><a href="img/miz10.png " data-lightbox="group">受肉snap5</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz11.png "><li>2014-2015</li><li><a href="img/miz11.png " data-lightbox="group">Hello, Misyu</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz12.png "><li>2014-2015</li><li><a href="img/miz12.png " data-lightbox="group">ばに湯(0802)</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz13.png "><li>2014-2015</li><li><a href="img/miz13.png " data-lightbox="group">ばに湯(0821)</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz14.png "><li>2014-2015</li><li><a href="img/miz14.png " data-lightbox="group">アイコン用全体(笑顔)</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz15.png "><li>2014-2015</li><li><a href="img/miz15.png " data-lightbox="group">アイコン用全体(真顔)</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz16.jpeg"><li>2014-2015</li><li><a href="img/miz16.jpeg" data-lightbox="group">メス湯</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz17.png "><li>2014-2015</li><li><a href="img/miz17.png " data-lightbox="group">かぼ湯</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz18.png "><li>2014-2015</li><li><a href="img/miz18.png " data-lightbox="group">ハロ湯(人狼)</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz19.png "><li>2014-2015</li><li><a href="img/miz19.png " data-lightbox="group">MIZUYU</a></li><li>illustration</li></ul>
-			<ul class="gallery-list"><img src="img/miz20.png "><li>2014-2015</li><li><a href="img/miz20.png " data-lightbox="group">クリスマスデート風</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz01.PNG " loading="lazy"><li>2023-01-11</li><li><a href="img/miz01.PNG " data-lightbox="group">エフ湯(呆)</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz02.png " loading="lazy"><li>2023-02-26</li><li><a href="img/miz02.png " data-lightbox="group">エフ湯graffiti</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz03.png " loading="lazy"><li>2023-04-18</li><li><a href="img/miz03.png " data-lightbox="group">レトロ風</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz04.jpg " loading="lazy"><li>2023-06-22</li><li><a href="img/miz04.jpg " data-lightbox="group">電脳MIZYU</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz05.png " loading="lazy"><li>2023-07-23</li><li><a href="img/miz05.png " data-lightbox="group">ウザ湯</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz06.png " loading="lazy"><li>2023-07-23</li><li><a href="img/miz06.png " data-lightbox="group">受肉snap1</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz07.png " loading="lazy"><li>2023-07-23</li><li><a href="img/miz07.png " data-lightbox="group">受肉snap2</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz08.png " loading="lazy"><li>2023-07-23</li><li><a href="img/miz08.png " data-lightbox="group">受肉snap3</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz09.png " loading="lazy"><li>2023-07-24</li><li><a href="img/miz09.png " data-lightbox="group">受肉snap4</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz10.png " loading="lazy"><li>2023-07-24</li><li><a href="img/miz10.png " data-lightbox="group">受肉snap5</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz11.png " loading="lazy"><li>2023-07-26</li><li><a href="img/miz11.png " data-lightbox="group">Hello, Misyu</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz12.png " loading="lazy"><li>2023-08-02</li><li><a href="img/miz12.png " data-lightbox="group">ばに湯(0802)</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz13.png " loading="lazy"><li>2023-08-21</li><li><a href="img/miz13.png " data-lightbox="group">ばに湯(0821)</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz14.png " loading="lazy"><li>2023-09-06</li><li><a href="img/miz14.png " data-lightbox="group">アイコン用全体(笑顔)</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz15.png " loading="lazy"><li>2023-09-06</li><li><a href="img/miz15.png " data-lightbox="group">アイコン用全体(真顔)</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz16.jpeg" loading="lazy"><li>2023-10-29</li><li><a href="img/miz16.jpeg" data-lightbox="group">メス湯</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz17.png " loading="lazy"><li>2023-10-31</li><li><a href="img/miz17.png " data-lightbox="group">かぼ湯</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz18.png " loading="lazy"><li>2023-10-31</li><li><a href="img/miz18.png " data-lightbox="group">ハロ湯(人狼)</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz19.png " loading="lazy"><li>2023-11-02</li><li><a href="img/miz19.png " data-lightbox="group">MIZUYU</a></li><li>illustration</li></ul>
+			<ul class="gallery-list"><img src="img/miz20.png " loading="lazy"><li>2023-12-03</li><li><a href="img/miz20.png " data-lightbox="group">クリスマスデート風</a></li><li>illustration</li></ul>
 		</div>
 	</div>
 
@@ -149,22 +153,22 @@
 	<div class="gallery section second" id="netayu">
 		<div class="container">
 			<h1>みず湯くんイラスト（ネタ）</h1>
-			<ul class="gallery-list"><img src="img/netayu01.jpeg"><li>2014-2015</li><li><a href="img/netayu01.jpeg" data-lightbox="group">こび湯</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu02.png "><li>2014-2015</li><li><a href="img/netayu02.png " data-lightbox="group">ほげ湯</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu03.png "><li>2014-2015</li><li><a href="img/netayu03.png " data-lightbox="group">FXで有り金溶けたばに湯</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu04.png "><li>2014-2015</li><li><a href="img/netayu04.png " data-lightbox="group">まだあわわてる時間じゃない</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu05.png "><li>2014-2015</li><li><a href="img/netayu05.png " data-lightbox="group">I'm Die, Thank You Forever</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu06.png "><li>2014-2015</li><li><a href="img/netayu06.png " data-lightbox="group">CHIMPOにゃ！</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu07.png "><li>2014-2015</li><li><a href="img/netayu07.png " data-lightbox="group">アホ毛の描き方</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu08.png "><li>2014-2015</li><li><a href="img/netayu08.png " data-lightbox="group">ぬるま湯と呼ばないで</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu09.png "><li>2014-2015</li><li><a href="img/netayu09.png " data-lightbox="group">MIZU-ODOSHI</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu10.png "><li>2014-2015</li><li><a href="img/netayu10.png " data-lightbox="group">下着を装備した！</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu11.png "><li>2014-2015</li><li><a href="img/netayu11.png " data-lightbox="group">撮影の裏側</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu12.png "><li>2014-2015</li><li><a href="img/netayu12.png " data-lightbox="group">ごじ湯お兄ちゃん</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu13.png "><li>2014-2015</li><li><a href="img/netayu13.png " data-lightbox="group">ペンタブが壊れました</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu14.png "><li>2014-2015</li><li><a href="img/netayu14.png " data-lightbox="group">レインコート</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu15.png "><li>2014-2015</li><li><a href="img/netayu15.png " data-lightbox="group">見られすぎて穴空いた</a></li><li>meme</li></ul>
-			<ul class="gallery-list"><img src="img/netayu16.png "><li>2014-2015</li><li><a href="img/netayu16.png " data-lightbox="group">落ち湯</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu01.jpeg" loading="lazy"><li>2023-07-26</li><li><a href="img/netayu01.jpeg" data-lightbox="group">こび湯</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu02.png " loading="lazy"><li>2023-07-26</li><li><a href="img/netayu02.png " data-lightbox="group">ほげ湯</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu03.png " loading="lazy"><li>2023-08-22</li><li><a href="img/netayu03.png " data-lightbox="group">FXで有り金溶けたばに湯</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu04.png " loading="lazy"><li>2023-08-26</li><li><a href="img/netayu04.png " data-lightbox="group">まだあわわてる時間じゃない</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu05.png " loading="lazy"><li>2023-08-26</li><li><a href="img/netayu05.png " data-lightbox="group">I'm Die, Thank You Forever</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu06.png " loading="lazy"><li>2023-08-31</li><li><a href="img/netayu06.png " data-lightbox="group">CHIMPOにゃ！</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu07.png " loading="lazy"><li>2023-09-25</li><li><a href="img/netayu07.png " data-lightbox="group">アホ毛の描き方</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu08.png " loading="lazy"><li>2023-09-26</li><li><a href="img/netayu08.png " data-lightbox="group">ぬるま湯と呼ばないで</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu09.png " loading="lazy"><li>2023-10-29</li><li><a href="img/netayu09.png " data-lightbox="group">MIZU-ODOSHI</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu10.png " loading="lazy"><li>2023-11-01</li><li><a href="img/netayu10.png " data-lightbox="group">下着を装備した！</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu11.png " loading="lazy"><li>2023-11-09</li><li><a href="img/netayu11.png " data-lightbox="group">撮影の裏側</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu14.png " loading="lazy"><li>2023-11-27</li><li><a href="img/netayu14.png " data-lightbox="group">レインコート</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu15.png " loading="lazy"><li>2023-11-27</li><li><a href="img/netayu15.png " data-lightbox="group">見られすぎて穴空いた</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu12.png " loading="lazy"><li>2023-11-28</li><li><a href="img/netayu12.png " data-lightbox="group">ごじ湯お兄ちゃん</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu13.png " loading="lazy"><li>2023-11-28</li><li><a href="img/netayu13.png " data-lightbox="group">ペンタブが壊れました</a></li><li>meme</li></ul>
+			<ul class="gallery-list"><img src="img/netayu16.png " loading="lazy"><li>2023-12-20</li><li><a href="img/netayu16.png " data-lightbox="group">落ち湯</a></li><li>meme</li></ul>
 		</div>
 	</div>
 
@@ -172,42 +176,48 @@
 	<div class="gallery section second" id="follower">
 		<div class="container">
 			<h1>フォロワーイラスト</h1>
-			<ul class="gallery-list"><img src="img/F00.png"><li>2014-2015</li><li><a href="img/F00.png" data-lightbox="group">にー</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F01.png"><li>2014-2015</li><li><a href="img/F01.png" data-lightbox="group">しゃりしゃり</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F02.png"><li>2014-2015</li><li><a href="img/F02.png" data-lightbox="group">しゃりしゃりwithグラエナ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F03.png"><li>2014-2015</li><li><a href="img/F03.png" data-lightbox="group">きっさ・ミケルセン</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F04.png"><li>2014-2015</li><li><a href="img/F04.png" data-lightbox="group">きっさ・ミケルセン2</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F05.png"><li>2014-2015</li><li><a href="img/F05.png" data-lightbox="group">モヒ天使</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F06.png"><li>2014-2015</li><li><a href="img/F06.png" data-lightbox="group">MHK(ﾓﾋｶﾝ)</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F07.png"><li>2014-2015</li><li><a href="img/F07.png" data-lightbox="group">かいえ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F08.png"><li>2014-2015</li><li><a href="img/F08.png" data-lightbox="group">かいえックス</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F09.png"><li>2014-2015</li><li><a href="img/F09.png" data-lightbox="group">改え</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F10.png"><li>2014-2015</li><li><a href="img/F10.png" data-lightbox="group">でっかいえい</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F11.png"><li>2014-2015</li><li><a href="img/F11.png" data-lightbox="group">めぐ(線画交換用)</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F12.png"><li>2014-2015</li><li><a href="img/F12.png" data-lightbox="group">ネコ耳メイドOMG</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F13.png"><li>2014-2015</li><li><a href="img/F13.png" data-lightbox="group">#POKAPOKAPOKARU☀</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F14.png"><li>2014-2015</li><li><a href="img/F14.png" data-lightbox="group">とるちゃ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F15.png"><li>2014-2015</li><li><a href="img/F15.png" data-lightbox="group">色んなとるちゃ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F16.png"><li>2014-2015</li><li><a href="img/F16.png" data-lightbox="group">ころり(酔いどれの姿)</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F17.png"><li>2014-2015</li><li><a href="img/F17.png" data-lightbox="group">だなも</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F18.png"><li>2014-2015</li><li><a href="img/F18.png" data-lightbox="group">アナトロ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F19.png"><li>2014-2015</li><li><a href="img/F19.png" data-lightbox="group">アナトラ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F20.PNG"><li>2014-2015</li><li><a href="img/F20.PNG" data-lightbox="group">ねっTだよ！！</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F21.png"><li>2014-2015</li><li><a href="img/F21.png" data-lightbox="group">ねっしぃだよ！(迫真)</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F23.png"><li>2014-2015</li><li><a href="img/F23.png" data-lightbox="group">ねっしぃですよ</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F24.jpg"><li>2014-2015</li><li><a href="img/F24.jpg" data-lightbox="group">おいしいかもー！！</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F25.png"><li>2014-2015</li><li><a href="img/F25.png" data-lightbox="group">Tank you</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F26.png"><li>2014-2015</li><li><a href="img/F26.png" data-lightbox="group">ねっしぃV</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F27.png"><li>2014-2015</li><li><a href="img/F27.png" data-lightbox="group">るねすた</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F28.png"><li>2014-2015</li><li><a href="img/F28.png" data-lightbox="group">よるねこ(宇宙)</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F29.png"><li>2014-2015</li><li><a href="img/F29.png" data-lightbox="group">もやし</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F30.png"><li>2014-2015</li><li><a href="img/F30.png" data-lightbox="group">ゆーや誤字王</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F31.png"><li>2014-2015</li><li><a href="img/F31.png" data-lightbox="group">ふぁーふぁ誕生日おめでとう</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F32.png"><li>2014-2015</li><li><a href="img/F32.png" data-lightbox="group">ゴリパンザウルス</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F33.png"><li>2014-2015</li><li><a href="img/F33.png" data-lightbox="group">チゲうどんマウス🖱</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F34.png"><li>2014-2015</li><li><a href="img/F34.png" data-lightbox="group">ひまわりさん<br/>with物干し竿and菜箸</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F35.png"><li>2014-2015</li><li><a href="img/F35.png" data-lightbox="group">花と砂</a></li><li>followers</li></ul>
-			<ul class="gallery-list"><img src="img/F36.png"><li>2014-2015</li><li><a href="img/F36.png" data-lightbox="group">舌をしまい忘れた砂ちゃ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F00.png" loading="lazy"><li>2023-01-10</li><li><a href="img/F00.png" data-lightbox="group">にー</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F01.png" loading="lazy"><li>2023-01-10</li><li><a href="img/F01.png" data-lightbox="group">しゃりしゃり</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F02.png" loading="lazy"><li>2023-01-31</li><li><a href="img/F02.png" data-lightbox="group">しゃりしゃりwithグラエナ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F03.png" loading="lazy"><li>2023-01-22</li><li><a href="img/F03.png" data-lightbox="group">きっさ・ミケルセン</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F04.png" loading="lazy"><li>2023-01-22</li><li><a href="img/F04.png" data-lightbox="group">きっさ・ミケルセン2</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F05.png" loading="lazy"><li>2023-01-26</li><li><a href="img/F05.png" data-lightbox="group">モヒ天使</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F06.png" loading="lazy"><li>2023-01-26</li><li><a href="img/F06.png" data-lightbox="group">MHK(ﾓﾋｶﾝ)</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F07.png" loading="lazy"><li>2023-01-30</li><li><a href="img/F07.png" data-lightbox="group">かいえ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F08.png" loading="lazy"><li>2023-08-29</li><li><a href="img/F08.png" data-lightbox="group">かいえックス</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F09.png" loading="lazy"><li>2023-11-27</li><li><a href="img/F09.png" data-lightbox="group">改え</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F10.png" loading="lazy"><li>2023-11-27</li><li><a href="img/F10.png" data-lightbox="group">でっかいえい</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F11.png" loading="lazy"><li>2023-02-01</li><li><a href="img/F11.png" data-lightbox="group">めぐ(線画交換用)</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F12.png" loading="lazy"><li>2023-08-29</li><li><a href="img/F12.png" data-lightbox="group">ネコ耳メイドOMG</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F13.png" loading="lazy"><li>2023-02-09</li><li><a href="img/F13.png" data-lightbox="group">#POKAPOKAPOKARU☀</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F14.png" loading="lazy"><li>2023-03-22</li><li><a href="img/F14.png" data-lightbox="group">とるちゃ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F15.png" loading="lazy"><li>2023-02-22</li><li><a href="img/F15.png" data-lightbox="group">色んなとるちゃ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F16.png" loading="lazy"><li>2023-03-07</li><li><a href="img/F16.png" data-lightbox="group">ころり(酔いどれの姿)</a></li><li>followers</li></ul>
+			
+			<ul class="gallery-list"><img src="img/F17.png" loading="lazy"><li>2023-03-07</li><li><a href="img/F17.png" data-lightbox="group">だなも</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F18.png" loading="lazy"><li>2023-04-02</li><li><a href="img/F18.png" data-lightbox="group">アナトロ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F19.png" loading="lazy"><li>2023-04-21</li><li><a href="img/F19.png" data-lightbox="group">アナトラ</a></li><li>followers</li></ul>
+
+			<ul class="gallery-list"><img src="img/F21.png" loading="lazy"><li>2023-04-02</li><li><a href="img/F21.png" data-lightbox="group">ねっしぃだよ！(迫真)</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F22.png" loading="lazy"><li>2023-04-02</li><li><a href="img/F22.png" data-lightbox="group">ねっしぃなの？</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F23.png" loading="lazy"><li>2023-04-07</li><li><a href="img/F23.png" data-lightbox="group">ねっしぃですよ</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F20.PNG" loading="lazy"><li>2023-04-21</li><li><a href="img/F20.PNG" data-lightbox="group">ねっTだよ！！</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F24.jpg" loading="lazy"><li>2023-04-12</li><li><a href="img/F24.jpg" data-lightbox="group">おいしいかもー！！</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F25.png" loading="lazy"><li>2023-04-21</li><li><a href="img/F25.png" data-lightbox="group">Tank you</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F26.png" loading="lazy"><li>2023-06-08</li><li><a href="img/F26.png" data-lightbox="group">ねっしぃV</a></li><li>followers</li></ul>
+
+			<ul class="gallery-list"><img src="img/F27.png" loading="lazy"><li>2023-03-22</li><li><a href="img/F27.png" data-lightbox="group">るねすた</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F28.png" loading="lazy"><li>2023-08-13</li><li><a href="img/F28.png" data-lightbox="group">よるねこ(宇宙)</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F29.png" loading="lazy"><li>2023-08-20</li><li><a href="img/F29.png" data-lightbox="group">もやし</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F30.png" loading="lazy"><li>2023-12-03</li><li><a href="img/F30.png" data-lightbox="group">ゆーや誤字王</a></li><li>followers</li></ul>
+
+			<ul class="gallery-list"><img src="img/F31.png" loading="lazy"><li>2023-10-31</li><li><a href="img/F31.png" data-lightbox="group">ふぁーふぁ誕生日おめでとう</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F32.png" loading="lazy"><li>2023-08-27</li><li><a href="img/F32.png" data-lightbox="group">ゴリパンザウルス</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F33.png" loading="lazy"><li>2023-01-09</li><li><a href="img/F33.png" data-lightbox="group">チゲうどんマウス🖱</a></li><li>followers</li></ul>
+
+			<ul class="gallery-list"><img src="img/F34.png" loading="lazy"><li>2023-11-27</li><li><a href="img/F34.png" data-lightbox="group">ひまわりさん<br/>with物干し竿and菜箸</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F35.png" loading="lazy"><li>2023-11-27</li><li><a href="img/F35.png" data-lightbox="group">花と砂</a></li><li>followers</li></ul>
+			<ul class="gallery-list"><img src="img/F36.png" loading="lazy"><li>2023-11-30</li><li><a href="img/F36.png" data-lightbox="group">舌をしまい忘れた砂ちゃ</a></li><li>followers</li></ul>
 		</div>
 	</div>
 
@@ -215,13 +225,13 @@
 	<div class="gallery section second" id="request">
 		<div class="container">
 			<h1>リクエストイラスト</h1>
-			<ul class="gallery-list"><img src="img/riku00.PNG"><li>2014-2015</li><li><a href="img/riku00.PNG" data-lightbox="group">フィアメッタ</a></li><li>ARK NIGHTS</li></ul>
-			<ul class="gallery-list"><img src="img/riku01.png"><li>2014-2015</li><li><a href="img/riku01.png" data-lightbox="group">山田リョウ</a></li><li>Bocchi the Rock!</li></ul>
-			<ul class="gallery-list"><img src="img/riku02.png"><li>2014-2015</li><li><a href="img/riku02.png" data-lightbox="group">スペシャルウィーク</a></li><li>ウマ娘</li></ul>
-			<ul class="gallery-list"><img src="img/riku03.png"><li>2014-2015</li><li><a href="img/riku03.png" data-lightbox="group">"超"壱百満天原サロメ</a></li><li>nijisanji x Overdose Needy Girl</li></ul>
-			<ul class="gallery-list"><img src="img/riku04.png"><li>2014-2015</li><li><a href="img/riku04.png" data-lightbox="group">七七</a></li><li>Genshin Impact</li></ul>
-			<ul class="gallery-list"><img src="img/riku05.png"><li>2014-2015</li><li><a href="img/riku05.png" data-lightbox="group">ナヒーダ</a></li><li>Genshin Impact</li></ul>
-			<ul class="gallery-list"><img src="img/riku06.png"><li>2014-2015</li><li><a href="img/riku06.png" data-lightbox="group">猫又おかゆ</a></li><li>hololive</li></ul>
+			<ul class="gallery-list"><img src="img/riku01.png" loading="lazy"><li>2023-01-03</li><li><a href="img/riku01.png" data-lightbox="group">山田リョウ</a></li><li>Bocchi the Rock!</li></ul>
+			<ul class="gallery-list"><img src="img/riku00.PNG" loading="lazy"><li>2023-01-09</li><li><a href="img/riku00.PNG" data-lightbox="group">フィアメッタ</a></li><li>ARK NIGHTS</li></ul>
+			<ul class="gallery-list"><img src="img/riku02.png" loading="lazy"><li>2023-01-19</li><li><a href="img/riku02.png" data-lightbox="group">スペシャルウィーク</a></li><li>ウマ娘</li></ul>
+			<ul class="gallery-list"><img src="img/riku03.png" loading="lazy"><li>2023-08-08</li><li><a href="img/riku03.png" data-lightbox="group">"超"壱百満天原サロメ</a></li><li>nijisanji x Overdose Needy Girl</li></ul>
+			<ul class="gallery-list"><img src="img/riku04.png" loading="lazy"><li>2023-09-16</li><li><a href="img/riku04.png" data-lightbox="group">七七</a></li><li>Genshin Impact</li></ul>
+			<ul class="gallery-list"><img src="img/riku05.png" loading="lazy"><li>2023-11-06</li><li><a href="img/riku05.png" data-lightbox="group">ナヒーダ</a></li><li>Genshin Impact</li></ul>
+			<ul class="gallery-list"><img src="img/riku06.png" loading="lazy"><li>2023-11-25</li><li><a href="img/riku06.png" data-lightbox="group">猫又おかゆ</a></li><li>hololive</li></ul>
 		</div>
 	</div>
 
@@ -229,21 +239,22 @@
 	<div class="gallery section second" id="niji">
 		<div class="container">
 			<h1>二次創作</h1>
-			<ul class="gallery-list"><img src="img/niji0101.jpg"><li>2014-2015</li><li><a href="img/niji0101.jpg" data-lightbox="group">ラプラス・ダークネス</a></li><li>hololive</li></ul>
-			<ul class="gallery-list"><img src="img/niji0102.png"><li>2014-2015</li><li><a href="img/niji0102.png" data-lightbox="group">オカルン(高倉健)</a></li><li>DAN DA DAN</li></ul>
-			<ul class="gallery-list"><img src="img/niji0103.png"><li>2014-2015</li><li><a href="img/niji0103.png" data-lightbox="group">アーニャ</a></li><li>SPY×FAMILY</li></ul>
-			<ul class="gallery-list"><img src="img/niji0125.png"><li>2014-2015</li><li><a href="img/niji0125.png" data-lightbox="group">イカちゃん</a></li><li>Splatoon</li></ul>
-			<ul class="gallery-list"><img src="img/niji0126.png"><li>2014-2015</li><li><a href="img/niji0126.png" data-lightbox="group">一伊那尓栖</a></li><li>hololive EN</li></ul>
-			<ul class="gallery-list"><img src="img/niji0127.png"><li>2014-2015</li><li><a href="img/niji0127.png" data-lightbox="group">ヒトカゲ</a></li><li>Pokemon</li></ul>
-			<ul class="gallery-list"><img src="img/niji0128.png"><li>2014-2015</li><li><a href="img/niji0128.png" data-lightbox="group">蛙吹梅雨</a></li><li>My Hero Academia</li></ul>
-			<ul class="gallery-list"><img src="img/niji0129.png"><li>2014-2015</li><li><a href="img/niji0129.png" data-lightbox="group">コジャケ</a></li><li>Splatoon</li></ul>
-			<ul class="gallery-list"><img src="img/niji0130.png"><li>2014-2015</li><li><a href="img/niji0130.png" data-lightbox="group">ピカチュウ</a></li><li>Pokemon</li></ul>
-			<ul class="gallery-list"><img src="img/niji0516.png"><li>2014-2015</li><li><a href="img/niji0516.png" data-lightbox="group">初音ミク</a></li><li>Vocaloid</li></ul>
-			<ul class="gallery-list"><img src="img/niji0718.jpg"><li>2014-2015</li><li><a href="img/niji0718.jpg" data-lightbox="group">デンジ</a></li><li>Chainsaw Man</li></ul>
-			<ul class="gallery-list"><img src="img/niji0816.png"><li>2014-2015</li><li><a href="img/niji0816.png" data-lightbox="group">パル子</a></li><li>Splatoon</li></ul>
-			<ul class="gallery-list"><img src="img/niji0830.png"><li>2014-2015</li><li><a href="img/niji0830.png" data-lightbox="group">ヒロアカ13巻</a></li><li>My Hero Academia</li></ul>
-			<ul class="gallery-list"><img src="img/niji0831.png"><li>2014-2015</li><li><a href="img/niji0831.png" data-lightbox="group">耳郎響香</a></li><li>My Hero Academia</li></ul>
-			<ul class="gallery-list"><img src="img/niji1129.png"><li>2014-2015</li><li><a href="img/niji1129.png" data-lightbox="group">爆豪勝己</a></li><li>My Hero Academia</li></ul>
+			<ul class="gallery-list"><img src="img/niji0102.png" loading="lazy"><li>2023-01-02</li><li><a href="img/niji0102.png" data-lightbox="group">オカルン(高倉健)</a></li><li>DAN DA DAN</li></ul>
+			<ul class="gallery-list"><img src="img/niji0101.jpg" loading="lazy"><li>2023-01-04</li><li><a href="img/niji0101.jpg" data-lightbox="group">ラプラス・ダークネス</a></li><li>hololive</li></ul>
+			<ul class="gallery-list"><img src="img/niji0103.png" loading="lazy"><li>2023-01-03</li><li><a href="img/niji0103.png" data-lightbox="group">アーニャ</a></li><li>SPY×FAMILY</li></ul>
+			<ul class="gallery-list"><img src="img/niji0125.png" loading="lazy"><li>2023-01-25</li><li><a href="img/niji0125.png" data-lightbox="group">イカちゃん</a></li><li>Splatoon</li></ul>
+			<ul class="gallery-list"><img src="img/niji0126.png" loading="lazy"><li>2023-01-26</li><li><a href="img/niji0126.png" data-lightbox="group">一伊那尓栖</a></li><li>hololive EN</li></ul>
+			<ul class="gallery-list"><img src="img/niji0127.png" loading="lazy"><li>2023-01-26</li><li><a href="img/niji0127.png" data-lightbox="group">ヒトカゲ</a></li><li>Pokemon</li></ul>
+			<ul class="gallery-list"><img src="img/niji0128.png" loading="lazy"><li>2023-01-26</li><li><a href="img/niji0128.png" data-lightbox="group">蛙吹梅雨</a></li><li>My Hero Academia</li></ul>
+			<ul class="gallery-list"><img src="img/niji0129.png" loading="lazy"><li>2023-01-26</li><li><a href="img/niji0129.png" data-lightbox="group">コジャケ</a></li><li>Splatoon</li></ul>
+			<ul class="gallery-list"><img src="img/niji0130.png" loading="lazy"><li>2023-01-26</li><li><a href="img/niji0130.png" data-lightbox="group">ピカチュウ</a></li><li>Pokemon</li></ul>
+			<ul class="gallery-list"><img src="img/niji0516.png" loading="lazy"><li>2023-05-16</li><li><a href="img/niji0516.png" data-lightbox="group">初音ミク</a></li><li>Vocaloid</li></ul>
+			<ul class="gallery-list"><img src="img/niji0718.jpg" loading="lazy"><li>2023-07-18</li><li><a href="img/niji0718.jpg" data-lightbox="group">デンジ</a></li><li>Chainsaw Man</li></ul>
+			<ul class="gallery-list"><img src="img/niji0816.png" loading="lazy"><li>2023-08-16</li><li><a href="img/niji0816.png" data-lightbox="group">パル子</a></li><li>Splatoon</li></ul>
+			<ul class="gallery-list"><img src="img/niji0830.png" loading="lazy"><li>2023-08-30</li><li><a href="img/niji0830.png" data-lightbox="group">ヒロアカ13巻</a></li><li>My Hero Academia</li></ul>
+			<ul class="gallery-list"><img src="img/niji0831.png" loading="lazy"><li>2023-08-30</li><li><a href="img/niji0831.png" data-lightbox="group">耳郎響香</a></li><li>My Hero Academia</li></ul>
+			<ul class="gallery-list"><img src="img/niji0927.png" loading="lazy"><li>2023-09-27</li><li><a href="img/niji0927.png" data-lightbox="group">ソウルイーター</a></li><li>SOUL EATER</li></ul>
+			<ul class="gallery-list"><img src="img/niji1129.png" loading="lazy"><li>2023-11-29</li><li><a href="img/niji1129.png" data-lightbox="group">爆豪勝己</a></li><li>My Hero Academia</li></ul>
 		</div>
 	</div>
 
@@ -251,21 +262,21 @@
 	<div class="gallery section second" id="origin">
 		<div class="container">
 			<h1>オリジナルイラスト</h1>
-			<ul class="gallery-list"><img src="img/org0101.jpeg"><li>2014-2015</li><li><a href="img/org0101.jpeg" data-lightbox="group">煙に巻く</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0102.jpeg"><li>2014-2015</li><li><a href="img/org0102.jpeg" data-lightbox="group">Roar</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0103.png "><li>2014-2015</li><li><a href="img/org0103.png " data-lightbox="group">Easy</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0104.JPG "><li>2014-2015</li><li><a href="img/org0104.JPG " data-lightbox="group">逆光</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0105.png "><li>2014-2015</li><li><a href="img/org0105.png " data-lightbox="group">自棄</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0111.png "><li>2014-2015</li><li><a href="img/org0111.png " data-lightbox="group">横顔</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0201.JPG "><li>2014-2015</li><li><a href="img/org0201.JPG " data-lightbox="group">Live Paint</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0307.png "><li>2014-2015</li><li><a href="img/org0307.png " data-lightbox="group">Selfy</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0515.png "><li>2014-2015</li><li><a href="img/org0515.png " data-lightbox="group">ジャケ写風</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0716.png "><li>2014-2015</li><li><a href="img/org0716.png " data-lightbox="group">(T)rain</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0831.png "><li>2014-2015</li><li><a href="img/org0831.png " data-lightbox="group">NOP</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0908.png "><li>2014-2015</li><li><a href="img/org0908.png " data-lightbox="group">黒マスク</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0922.png "><li>2014-2015</li><li><a href="img/org0922.png " data-lightbox="group">黒髪の</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org0928.png "><li>2014-2015</li><li><a href="img/org0928.png " data-lightbox="group">シンプル</a></li><li>original</li></ul>
-			<ul class="gallery-list"><img src="img/org1125.png "><li>2014-2015</li><li><a href="img/org1125.png " data-lightbox="group">湿度高め</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0101.jpeg" loading="lazy"><li>2023-01-06</li><li><a href="img/org0101.jpeg" data-lightbox="group">煙に巻く</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0102.jpeg" loading="lazy"><li>2023-01-07</li><li><a href="img/org0102.jpeg" data-lightbox="group">Roar</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0103.png " loading="lazy"><li>2023-01-08</li><li><a href="img/org0103.png " data-lightbox="group">Easy</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0104.JPG " loading="lazy"><li>2023-01-09</li><li><a href="img/org0104.JPG " data-lightbox="group">逆光</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0105.png " loading="lazy"><li>2023-01-10</li><li><a href="img/org0105.png " data-lightbox="group">自棄</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0111.png " loading="lazy"><li>2023-01-11</li><li><a href="img/org0111.png " data-lightbox="group">横顔</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0201.JPG " loading="lazy"><li>2023-02-01</li><li><a href="img/org0201.JPG " data-lightbox="group">Live Paint</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0307.png " loading="lazy"><li>2023-03-07</li><li><a href="img/org0307.png " data-lightbox="group">Selfy</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0515.png " loading="lazy"><li>2023-05-15</li><li><a href="img/org0515.png " data-lightbox="group">ジャケ写風</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0716.png " loading="lazy"><li>2023-07-16</li><li><a href="img/org0716.png " data-lightbox="group">(T)rain</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0831.png " loading="lazy"><li>2023-08-31</li><li><a href="img/org0831.png " data-lightbox="group">NOP</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0908.png " loading="lazy"><li>2023-09-08</li><li><a href="img/org0908.png " data-lightbox="group">黒マスク</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0922.png " loading="lazy"><li>2023-09-22</li><li><a href="img/org0922.png " data-lightbox="group">黒髪の</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org0928.png " loading="lazy"><li>2023-09-28</li><li><a href="img/org0928.png " data-lightbox="group">シンプル</a></li><li>original</li></ul>
+			<ul class="gallery-list"><img src="img/org1125.png " loading="lazy"><li>2023-11-25</li><li><a href="img/org1125.png " data-lightbox="group">湿度高め</a></li><li>original</li></ul>
 		</div>
 	</div>
 
@@ -273,35 +284,40 @@
 	<div class="gallery section second" id="rakugaki">
 		<div class="container">
 			<h1>ラクガキ</h1>
-			<ul class="gallery-list"><img src="img/rkgk0110.png"><li>2014-2015</li><li><a href="img/rkgk0110.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0126.png"><li>2014-2015</li><li><a href="img/rkgk0126.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0130.png"><li>2014-2015</li><li><a href="img/rkgk0130.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0219.png"><li>2014-2015</li><li><a href="img/rkgk0219.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0226.png"><li>2014-2015</li><li><a href="img/rkgk0226.png" data-lightbox="group">フンイキ</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0228.png"><li>2014-2015</li><li><a href="img/rkgk0228.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0306.png"><li>2014-2015</li><li><a href="img/rkgk0306.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0316.png"><li>2014-2015</li><li><a href="img/rkgk0316.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0322.png"><li>2014-2015</li><li><a href="img/rkgk0322.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0516.png"><li>2014-2015</li><li><a href="img/rkgk0516.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0517.png"><li>2014-2015</li><li><a href="img/rkgk0517.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0612.png"><li>2014-2015</li><li><a href="img/rkgk0612.png" data-lightbox="group">サカバンバスピスさん</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0613.jpg"><li>2014-2015</li><li><a href="img/rkgk0613.jpg" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0625.png"><li>2014-2015</li><li><a href="img/rkgk0625.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0722.png"><li>2014-2015</li><li><a href="img/rkgk0722.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0827.png"><li>2014-2015</li><li><a href="img/rkgk0827.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0828.png"><li>2014-2015</li><li><a href="img/rkgk0828.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0829.png"><li>2014-2015</li><li><a href="img/rkgk0829.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0922.png"><li>2014-2015</li><li><a href="img/rkgk0922.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk0926.png"><li>2014-2015</li><li><a href="img/rkgk0926.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1006.png"><li>2014-2015</li><li><a href="img/rkgk1006.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1007.png"><li>2014-2015</li><li><a href="img/rkgk1007.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1101.png"><li>2014-2015</li><li><a href="img/rkgk1101.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1127.PNG"><li>2014-2015</li><li><a href="img/rkgk1127.PNG" data-lightbox="group">さめくん</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1203.png"><li>2014-2015</li><li><a href="img/rkgk1203.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1211.png"><li>2014-2015</li><li><a href="img/rkgk1211.png" data-lightbox="group">【自主規制】</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1212.png"><li>2014-2015</li><li><a href="img/rkgk1212.png" data-lightbox="group">こたつ百足</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1213.png"><li>2014-2015</li><li><a href="img/rkgk1213.png" data-lightbox="group">こたつ百足♀</a></li><li>RAKUGAKI</li></ul>
-			<ul class="gallery-list"><img src="img/rkgk1215.png"><li>2014-2015</li><li><a href="img/rkgk1215.png" data-lightbox="group">水切りワイバーン</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0110.png" loading="lazy"><li>2023-01-10</li><li><a href="img/rkgk0110.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0126.png" loading="lazy"><li>2023-01-26</li><li><a href="img/rkgk0126.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0130.png" loading="lazy"><li>2023-01-30</li><li><a href="img/rkgk0130.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0219.png" loading="lazy"><li>2023-02-19</li><li><a href="img/rkgk0219.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0226.png" loading="lazy"><li>2023-02-26</li><li><a href="img/rkgk0226.png" data-lightbox="group">フンイキ</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0228.png" loading="lazy"><li>2023-02-28</li><li><a href="img/rkgk0228.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0306.png" loading="lazy"><li>2023-03-06</li><li><a href="img/rkgk0306.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0316.png" loading="lazy"><li>2023-03-16</li><li><a href="img/rkgk0316.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0322.png" loading="lazy"><li>2023-03-22</li><li><a href="img/rkgk0322.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+
+			<ul class="gallery-list"><img src="img/rkgk0516.png" loading="lazy"><li>2023-05-16</li><li><a href="img/rkgk0516.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0517.png" loading="lazy"><li>2023-05-17</li><li><a href="img/rkgk0517.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0612.png" loading="lazy"><li>2023-06-12</li><li><a href="img/rkgk0612.png" data-lightbox="group">サカバンバスピスさん</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0613.jpg" loading="lazy"><li>2023-06-13</li><li><a href="img/rkgk0613.jpg" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0625.png" loading="lazy"><li>2023-06-25</li><li><a href="img/rkgk0625.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+
+			<ul class="gallery-list"><img src="img/rkgk0722.png" loading="lazy"><li>2023-07-22</li><li><a href="img/rkgk0722.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0827.png" loading="lazy"><li>2023-08-27</li><li><a href="img/rkgk0827.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0828.png" loading="lazy"><li>2023-08-28</li><li><a href="img/rkgk0828.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0829.png" loading="lazy"><li>2023-08-29</li><li><a href="img/rkgk0829.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+
+			<ul class="gallery-list"><img src="img/rkgk0922.png" loading="lazy"><li>2023-09-22</li><li><a href="img/rkgk0922.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk0926.png" loading="lazy"><li>2023-09-26</li><li><a href="img/rkgk0926.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1006.png" loading="lazy"><li>2023-10-06</li><li><a href="img/rkgk1006.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1007.png" loading="lazy"><li>2023-10-07</li><li><a href="img/rkgk1007.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+
+			<ul class="gallery-list"><img src="img/rkgk1101.png" loading="lazy"><li>2023-11-01</li><li><a href="img/rkgk1101.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1127.PNG" loading="lazy"><li>2023-11-27</li><li><a href="img/rkgk1127.PNG" data-lightbox="group">さめくん</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1203.png" loading="lazy"><li>2023-12-03</li><li><a href="img/rkgk1203.png" data-lightbox="group">No title</a></li><li>RAKUGAKI</li></ul>
+
+			<ul class="gallery-list"><img src="img/rkgk1211.png" loading="lazy"><li>2023-12-11</li><li><a href="img/rkgk1211.png" data-lightbox="group">【自主規制】</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1212.png" loading="lazy"><li>2023-12-11</li><li><a href="img/rkgk1212.png" data-lightbox="group">こたつ百足</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1213.png" loading="lazy"><li>2023-12-11</li><li><a href="img/rkgk1213.png" data-lightbox="group">こたつ百足♀</a></li><li>RAKUGAKI</li></ul>
+			<ul class="gallery-list"><img src="img/rkgk1215.png" loading="lazy"><li>2023-12-15</li><li><a href="img/rkgk1215.png" data-lightbox="group">水切りワイバーン</a></li><li>RAKUGAKI</li></ul>
 		</div>
 	</div>
 
@@ -309,13 +325,13 @@
 	<div class="gallery section second" id="samune">
 		<div class="container">
 			<h1>配信サムネイル</h1>
-			<ul class="gallery-list"><img src="img/smn01.png"><li>2014-2015</li><li><a href="img/smn01.png" data-lightbox="group">みず湯くん、<br/>アルセウスにボコされる<br/>【レジェンズアルセウス】</a></li><li>Youtube<br/><a href="https://www.youtube.com/watch?v=Qr9Koy-yYdg"><i class="fa-brands fa-youtube"></i></a><br/></li></ul>
-			<ul class="gallery-list"><img src="img/smn02.png"><li>2014-2015</li><li><a href="img/smn02.png" data-lightbox="group">体力が尽きるカラオケ</a></li><li>Twicas Live/Archive<br/><a href="https://twitcasting.tv/c:yumizuyu/archive/"><i class="fa-solid fa-headset"></i></a></li></ul>
-			<ul class="gallery-list"><img src="img/smn03.png"><li>2014-2015</li><li><a href="img/smn03.png" data-lightbox="group">Youtubeバナー</a></li><li>Youtube<br/><a href="https://www.youtube.com/@mizuyukun"><i class="fa-brands fa-youtube"></i></a></li></ul>
-			<ul class="gallery-list"><img src="img/smn04.png"><li>2014-2015</li><li><a href="img/smn04.png" data-lightbox="group">【ホラゲ／Ib（イブ）#1】<br/>ビビりと征く、<br/>初めてのホラゲ初見プレイ<br/>【事前情報ナシ】</a></li><li>Youtube Live Stream</li></ul>
-			<ul class="gallery-list"><img src="img/smn05.png"><li>2014-2015</li><li><a href="img/smn05.png" data-lightbox="group">【ホラゲ／Ib（イブ）#2】<br/>ビビりと征く、<br/>初めてのホラゲ初見プレイ<br/>【事前情報ナシ】</a></li><li>Youtube Live Stream</li></ul>
-			<ul class="gallery-list"><img src="img/smn06.png"><li>2014-2015</li><li><a href="img/smn06.png" data-lightbox="group">ポケモンDLC ゼロの秘宝</a></li><li>Discord Live Stream</li></ul>
-			<ul class="gallery-list"><img src="img/smn07.png"><li>2014-2015</li><li><a href="img/smn07.png" data-lightbox="group">みず湯鯖<br/>オンライン忘年会2023</a></li><li>Discord Live Stream</li></ul>
+			<ul class="gallery-list"><img src="img/smn01.png" loading="lazy"><li>2023-08-27</li><li><a href="img/smn01.png" data-lightbox="group">みず湯くん、<br/>アルセウスにボコされる<br/>【レジェンズアルセウス】</a></li><li>Youtube<br/><a href="https://www.youtube.com/watch?v=Qr9Koy-yYdg"><i class="fa-brands fa-youtube"></i></a><br/></li></ul>
+			<ul class="gallery-list"><img src="img/smn02.png" loading="lazy"><li>2023-09-23</li><li><a href="img/smn02.png" data-lightbox="group">体力が尽きるカラオケ</a></li><li>Twicas Live/Archive<br/><a href="https://twitcasting.tv/c:yumizuyu/archive/"><i class="fa-solid fa-headset"></i></a></li></ul>
+			<ul class="gallery-list"><img src="img/smn03.png" loading="lazy"><li>2023-10-16</li><li><a href="img/smn03.png" data-lightbox="group">Youtubeバナー</a></li><li>Youtube<br/><a href="https://www.youtube.com/@mizuyukun"><i class="fa-brands fa-youtube"></i></a></li></ul>
+			<ul class="gallery-list"><img src="img/smn04.png" loading="lazy"><li>2023-09-29</li><li><a href="img/smn04.png" data-lightbox="group">【ホラゲ／Ib（イブ）#1】<br/>ビビりと征く、<br/>初めてのホラゲ初見プレイ<br/>【事前情報ナシ】</a></li><li>Youtube Live Stream</li></ul>
+			<ul class="gallery-list"><img src="img/smn05.png" loading="lazy"><li>2023-10-14</li><li><a href="img/smn05.png" data-lightbox="group">【ホラゲ／Ib（イブ）#2】<br/>ビビりと征く、<br/>初めてのホラゲ初見プレイ<br/>【事前情報ナシ】</a></li><li>Youtube Live Stream</li></ul>
+			<ul class="gallery-list"><img src="img/smn06.png" loading="lazy"><li>2023-12-22</li><li><a href="img/smn06.png" data-lightbox="group">ポケモンDLC ゼロの秘宝</a></li><li>Discord Live Stream</li></ul>
+			<ul class="gallery-list"><img src="img/smn07.png" loading="lazy"><li>2023-12-28</li><li><a href="img/smn07.png" data-lightbox="group">みず湯鯖<br/>オンライン忘年会2023</a></li><li>Discord Live Stream</li></ul>
 		</div>
 	</div>
 
@@ -334,7 +350,7 @@
 					プリントはファミリーマート または ローソンで
 				</span>
 			</p>
-			<div class="unit-50"><a href="img/nenga.png" data-lightbox="group"><img src="img/nenga.png"></a></div>
+			<div class="unit-50"><a href="img/nenga.png" data-lightbox="group"><img src="img/nenga.png" loading="lazy"></a></div>
 		</div>
 	</div>
 
